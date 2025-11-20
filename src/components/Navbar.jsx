@@ -17,7 +17,11 @@ const Navbar = () => {
           {pageLinks.map((link) => {
             return (
               <li key={link.id}>
-                <a href={link.href} className="nav-link">
+                <a
+                  href={link.href}
+                  className="nav-link"
+                  rel="noopener noreferrer"
+                >
                   {link.text}
                 </a>
               </li>
